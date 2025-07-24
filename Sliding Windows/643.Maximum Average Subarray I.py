@@ -7,3 +7,5 @@ class Solution:
             if max_sum < sum_:
                 max_sum = sum_
         return max_sum/k
+
+"""Сложность O(n), т.к. пересчет суммы за O(1)""" 
